@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .playlist {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  audio {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #efefef;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  button {
+    border: none;
+    background-color: #ff4d4f;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff7875;
+  }
+  .playlist-item span {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .upload-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .upload-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background-color: #45a049;
+  }
